@@ -20,7 +20,7 @@ int main()
     {
         if (command == "sum")
         {
-            sum();
+            compute();
         }
         else if (command == "save")
         {

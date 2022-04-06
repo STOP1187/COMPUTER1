@@ -9,6 +9,7 @@ src/CMakeFiles/computer.dir/disc.cpp.obj: \
  ../src/disc.cpp
 src/CMakeFiles/computer.dir/gpu.cpp.obj: \
  ../include/gpu.h \
+ ../include/ram.h \
  ../src/gpu.cpp
 src/CMakeFiles/computer.dir/kbd.cpp.obj: \
  ../include/kbd.h \

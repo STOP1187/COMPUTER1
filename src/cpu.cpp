@@ -1,6 +1,6 @@
 #include "cpu.h"
 
-void sum()
+void compute()
 {
 
 };

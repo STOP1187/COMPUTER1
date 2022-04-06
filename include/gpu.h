@@ -1,4 +1,4 @@
 #pragma once
+#include "ram.h"
 
-
-void display();
+void display(int buffer);

@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/kbd.h
+../include/gpu.h
+ram.h
+../include/ram.h
 
-E:/homeWork C++/untitled2/src/kbd.cpp
-kbd.h
-E:/homeWork C++/untitled2/src/kbd.h
+../include/ram.h
+
+E:/homeWork C++/untitled2/src/gpu.cpp
+gpu.h
+E:/homeWork C++/untitled2/src/gpu.h
+iostream
+-
 

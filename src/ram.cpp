@@ -1,7 +1,7 @@
 #include "ram.h"
 #include <iostream>
 
-int buffer[8];
+
 
 void write()
 {
