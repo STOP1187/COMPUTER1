@@ -1,0 +1,5 @@
+E:/homeWork C++/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/homeWork C++/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/homeWork C++/untitled2/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+E:/homeWork C++/untitled2/cmake-build-debug/src/CMakeFiles/COMPUTER.dir
+E:/homeWork C++/untitled2/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

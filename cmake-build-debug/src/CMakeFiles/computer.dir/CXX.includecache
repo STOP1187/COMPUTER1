@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/kbd.h
+
+E:/homeWork C++/untitled2/src/kbd.cpp
+kbd.h
+E:/homeWork C++/untitled2/src/kbd.h
+

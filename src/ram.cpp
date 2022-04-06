@@ -1,0 +1,22 @@
+#include "ram.h"
+#include <iostream>
+
+int buffer[8];
+
+void write()
+{
+    std::cout << "enter 8 numbers" << std::endl;
+
+    for (int i = 0; i < 7; ++i)
+    {
+        std::cin >> buffer[i];
+    };
+};
+
+void read()
+{
+    for (int i = 0; i < 7; ++i)
+    {
+        std::cout << buffer[i] << std::endl;
+    };
+};

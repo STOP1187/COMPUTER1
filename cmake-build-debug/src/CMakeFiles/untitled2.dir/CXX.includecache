@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cpu.h
+
+../include/disc.h
+
+../include/gpu.h
+ram.h
+../include/ram.h
+
+../include/kbd.h
+ram.h
+../include/ram.h
+
+../include/ram.h
+
+E:/homeWork C++/untitled2/src/disc.cpp
+disc.h
+E:/homeWork C++/untitled2/src/disc.h
+ram.h
+E:/homeWork C++/untitled2/src/ram.h
+
+E:/homeWork C++/untitled2/src/gpu.cpp
+gpu.h
+E:/homeWork C++/untitled2/src/gpu.h
+ram.h
+E:/homeWork C++/untitled2/src/ram.h
+
+E:/homeWork C++/untitled2/src/kbd.cpp
+kbd.h
+E:/homeWork C++/untitled2/src/kbd.h
+
+E:/homeWork C++/untitled2/src/main.cpp
+iostream
+-
+string
+-
+cpu.h
+E:/homeWork C++/untitled2/src/cpu.h
+disc.h
+E:/homeWork C++/untitled2/src/disc.h
+gpu.h
+E:/homeWork C++/untitled2/src/gpu.h
+kbd.h
+E:/homeWork C++/untitled2/src/kbd.h
+ram.h
+E:/homeWork C++/untitled2/src/ram.h
+
+E:/homeWork C++/untitled2/src/ram.cpp
+ram.h
+E:/homeWork C++/untitled2/src/ram.h
+iostream
+-
+
