@@ -1,12 +1,10 @@
 #include "cpu.h"
 #include "ram.h"
-#include <iostream>
 
 
 
 
-
-int compute(int* buffer) {
+int compute() {
 
     int total = 0;
 

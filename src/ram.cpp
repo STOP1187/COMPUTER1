@@ -4,7 +4,7 @@
 
 
 
-int write(int* buffer)
+int write()
 {
 
 
@@ -17,17 +17,12 @@ int write(int* buffer)
 
 };
 
-int read(int* buffer)
+int read()
 {
     for (int i = 0; i < 8; ++i)
     {
         std::cout << buffer[i] << std::endl;
     };
-    return buffer[8];
-};
-
-int main()
-{
-    int buffer[8];
 
 };
+

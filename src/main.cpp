@@ -21,7 +21,7 @@ int main()
     {
         if (command == "sum")
         {
-            compute(int* buffer);
+            compute();
         }
         else if (command == "save")
         {

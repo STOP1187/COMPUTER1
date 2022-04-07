@@ -23,14 +23,14 @@ ram.h
 ../include/ram.h
 
 ../include/ram.h
+iostream
+-
 
 E:/homeWork C++/untitled2/src/cpu.cpp
 cpu.h
 E:/homeWork C++/untitled2/src/cpu.h
 ram.h
 E:/homeWork C++/untitled2/src/ram.h
-iostream
--
 
 E:/homeWork C++/untitled2/src/disc.cpp
 disc.h
