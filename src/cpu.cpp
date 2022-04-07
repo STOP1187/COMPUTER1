@@ -4,7 +4,7 @@
 
 
 
-int compute() {
+void compute() {
 
     int total = 0;
 
@@ -13,6 +13,6 @@ int compute() {
         total += buffer[i];
     };
 
-    return total;
+    std::cout << total << std::endl;
 
 };

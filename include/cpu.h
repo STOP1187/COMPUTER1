@@ -2,4 +2,4 @@
 #include "ram.h"
 
 
-int compute();
+void compute();

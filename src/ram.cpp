@@ -4,7 +4,7 @@
 
 
 
-int write()
+void write()
 {
 
 
@@ -17,7 +17,7 @@ int write()
 
 };
 
-int read()
+void read()
 {
     for (int i = 0; i < 8; ++i)
     {

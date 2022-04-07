@@ -3,6 +3,6 @@
 
 int buffer[8];
 
-int write(int buffer);
+void write();
 
-int read(int buffer);
+void read();
