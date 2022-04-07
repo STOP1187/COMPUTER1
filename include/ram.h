@@ -1,7 +1,6 @@
 #pragma once
 
-int buffer[8];
 
-void write();
+int write(int buffer);
 
-void read();
+int read(int buffer);

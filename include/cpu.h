@@ -1,3 +1,5 @@
 #pragma once
+#include "ram.h"
 
-void compute();
+
+int compute(int buffer);

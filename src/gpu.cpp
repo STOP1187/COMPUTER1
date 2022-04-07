@@ -2,10 +2,7 @@
 #include <iostream>
 
 
-void display(int buffer)
+void display()
 {
-    for (int i = 0; i < 8; ++i)
-    {
-        std::cout << buffer[i] << std::endl;
-    };
+
 };

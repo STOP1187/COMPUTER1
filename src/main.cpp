@@ -7,6 +7,7 @@
 #include "kbd.h"
 #include "ram.h"
 
+
 int main()
 {
 
@@ -20,7 +21,7 @@ int main()
     {
         if (command == "sum")
         {
-            compute();
+            compute(int* buffer);
         }
         else if (command == "save")
         {

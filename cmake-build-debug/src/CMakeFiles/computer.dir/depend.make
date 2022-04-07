@@ -3,9 +3,11 @@
 
 src/CMakeFiles/computer.dir/cpu.cpp.obj: \
  ../include/cpu.h \
+ ../include/ram.h \
  ../src/cpu.cpp
 src/CMakeFiles/computer.dir/disc.cpp.obj: \
  ../include/disc.h \
+ ../include/ram.h \
  ../src/disc.cpp
 src/CMakeFiles/computer.dir/gpu.cpp.obj: \
  ../include/gpu.h \
@@ -13,6 +15,7 @@ src/CMakeFiles/computer.dir/gpu.cpp.obj: \
  ../src/gpu.cpp
 src/CMakeFiles/computer.dir/kbd.cpp.obj: \
  ../include/kbd.h \
+ ../include/ram.h \
  ../src/kbd.cpp
 src/CMakeFiles/computer.dir/main.cpp.obj: \
  ../include/cpu.h \
