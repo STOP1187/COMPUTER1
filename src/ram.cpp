@@ -2,26 +2,23 @@
 #include <iostream>
 
 
+int buffer[8];
 
-
-void write()
+void write(int in[8])
 {
-
-
-    std::cout << "enter 8 numbers" << std::endl;
 
     for (int i = 0; i < 8; ++i)
     {
-        std::cin >> buffer[i];
+        buffer[i] = in[i];
     };
 
 };
 
-void read()
+void read(int out[8])
 {
     for (int i = 0; i < 8; ++i)
     {
-        std::cout << buffer[i] << std::endl;
+        out[i] = buffer[i];
     };
 
 };

@@ -21,7 +21,7 @@ int main()
     {
         if (command == "sum")
         {
-            compute();
+            sum();
         }
         else if (command == "save")
         {

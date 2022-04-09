@@ -1,8 +1,6 @@
 #pragma once
-#include <iostream>
 
-int buffer[8];
 
-void write();
+void write(int out[8]);
 
-void read();
+void read(int in[8]);

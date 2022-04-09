@@ -6,73 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/cpu.h
-ram.h
-../include/ram.h
-
 ../include/disc.h
-ram.h
-../include/ram.h
-
-../include/gpu.h
-ram.h
-../include/ram.h
-
-../include/kbd.h
-ram.h
-../include/ram.h
 
 ../include/ram.h
-iostream
--
-
-E:/homeWork C++/untitled2/src/cpu.cpp
-cpu.h
-E:/homeWork C++/untitled2/src/cpu.h
-ram.h
-E:/homeWork C++/untitled2/src/ram.h
 
 E:/homeWork C++/untitled2/src/disc.cpp
 disc.h
 E:/homeWork C++/untitled2/src/disc.h
-iostream
--
+ram.h
+E:/homeWork C++/untitled2/src/ram.h
 fstream
--
-vector
--
-
-E:/homeWork C++/untitled2/src/gpu.cpp
-gpu.h
-E:/homeWork C++/untitled2/src/gpu.h
-iostream
--
-
-E:/homeWork C++/untitled2/src/kbd.cpp
-kbd.h
-E:/homeWork C++/untitled2/src/kbd.h
-ram.h
-E:/homeWork C++/untitled2/src/ram.h
-
-E:/homeWork C++/untitled2/src/main.cpp
-iostream
--
-string
--
-cpu.h
-E:/homeWork C++/untitled2/src/cpu.h
-disc.h
-E:/homeWork C++/untitled2/src/disc.h
-gpu.h
-E:/homeWork C++/untitled2/src/gpu.h
-kbd.h
-E:/homeWork C++/untitled2/src/kbd.h
-ram.h
-E:/homeWork C++/untitled2/src/ram.h
-
-E:/homeWork C++/untitled2/src/ram.cpp
-ram.h
-E:/homeWork C++/untitled2/src/ram.h
-iostream
 -
 

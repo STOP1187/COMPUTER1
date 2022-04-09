@@ -1,43 +1,35 @@
 #include "disc.h"
-#include <iostream>
+#include "ram.h"
 #include <fstream>
-#include <vector>
 
 
-std::vector<std::string> bufferIn;
-std::string in;
-std::vector<std::string> out;
+
 
 void save()
 {
 
-    std::ifstream saveIn("E:\\homeWork C++\\untitled2\\data.txt");
+    std::ofstream out("E:\\homeWork C++\\untitled2\\data.txt");
+    int buffer[8];
+    read(buffer);
 
-    while (!saveIn.eof())
+    for (int i = 0; i < 8; ++i)
     {
-
-
-        saveIn >> in;
-        bufferIn.push_back(in);
-
+        out << buffer[8] << std::endl;
     };
-
-    saveIn.close();
 
 };
 
 void load()
 {
 
-    std::ofstream loadOut("E:\\homeWork C++\\untitled2\\data.txt");
+    std::ifstream in("E:\\homeWork C++\\untitled2\\data.txt");
+    int buffer[8];
 
-    for (int i = 0; i < out.size(); ++i) {
-
-        loadOut << std::endl << out[i];
-
+    for (int i = 0; i < 8; ++i)
+    {
+        in >> buffer[8];
     };
 
-    loadOut.close();
 
 };
 
